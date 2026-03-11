@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <!-- Background (iOS clips to rounded rect automatically) -->
+  <rect width="180" height="180" fill="#6c63ff"/>
+
+  <!-- Subtle top glow -->
+  <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="180" height="180" fill="url(#glow)"/>
+
+  <!-- JSC letters baseline-aligned -->
+  <!-- J -->
+  <text x="22" y="122" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff">J</text>
+  <!-- S (30% larger) -->
+  <text x="70" y="128" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="68" fill="#1a1450">S</text>
+  <!-- C -->
+  <text x="127" y="122" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff">C</text>
+</svg>

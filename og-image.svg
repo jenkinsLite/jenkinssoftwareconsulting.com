@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#6c63ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c63ff"/>
+      <stop offset="100%" stop-color="#b8a4fc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <rect width="1200" height="630" fill="url(#bg-glow)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Logo mark -->
+  <rect x="88" y="215" width="140" height="140" rx="28" fill="#6c63ff"/>
+  <!-- J -->
+  <text x="113" y="326" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff">J</text>
+  <!-- S (larger, dark) -->
+  <text x="151" y="333" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="66" fill="#1a1450">S</text>
+  <!-- C -->
+  <text x="201" y="326" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="52" fill="#ffffff">C</text>
+
+  <!-- Company name -->
+  <text x="258" y="289" font-family="system-ui, -apple-system, Arial, sans-serif" font-weight="700" font-size="46" fill="#ffffff" letter-spacing="-1">Jenkins Software</text>
+  <text x="258" y="345" font-family="system-ui, -apple-system, Arial, sans-serif" font-weight="700" font-size="46" fill="#ffffff" letter-spacing="-1">Consulting</text>
+
+  <!-- Divider -->
+  <rect x="88" y="390" width="480" height="2" rx="1" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Tagline -->
+  <text x="88" y="432" font-family="system-ui, -apple-system, Arial, sans-serif" font-weight="400" font-size="26" fill="#9898b4" letter-spacing="0.5">Engineering · Leadership · Advisory</text>
+
+  <!-- Accent bar bottom right -->
+  <rect x="960" y="540" width="152" height="4" rx="2" fill="url(#accent-grad)"/>
+  <text x="960" y="530" font-family="system-ui, -apple-system, Arial, sans-serif" font-weight="500" font-size="20" fill="#9898b4">jenkinssoftwareconsulting.com</text>
+</svg>
