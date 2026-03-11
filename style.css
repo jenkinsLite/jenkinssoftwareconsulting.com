@@ -680,7 +680,9 @@ a.contact-info__value:focus-visible {
 }
 
 .footer__links-row {
-  display: contents; /* transparent wrapper at wider viewports */
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .footer__links {
