@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jenkins Software Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">
+        <span class="logo__mark"><span class="logo__mark-inner"><span class="logo__mark-j">J</span><span class="logo__mark-s">S</span><span class="logo__mark-c">C</span></span></span>
+        <span class="logo__text">Jenkins Software Consulting</span>
+      </a>
+      <nav class="nav">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#contact" class="nav__link nav__link--cta">Get in Touch</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME / LANDING -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Software Consulting</p>
+        <h1 class="hero__title">
+          Build better software.<br />
+          <span class="hero__title--accent">Ship with confidence.</span>
+        </h1>
+        <p class="hero__subtitle">
+          Jenkins Software Consulting partners with teams and founders to design, build,
+          and scale software — from early-stage products to enterprise platforms.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Work Together</a>
+          <a href="#about" class="btn btn--ghost">What's Possible</a>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">What's Possible</p>
+          <h2 class="section-title">Expertise across the full software lifecycle</h2>
+          <p class="section-subtitle">
+            Whether you need to ship a product, lead a team, or get a second opinion
+            on a critical decision — Jenkins Software Consulting brings deep, practical experience to the table.
+          </p>
+        </div>
+
+        <div class="cards">
+
+          <!-- Card 1: Engineering Execution -->
+          <div class="card">
+            <div class="card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <polyline points="14,20 20,26 14,32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <line x1="22" y1="32" x2="34" y2="32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Engineering Execution</h3>
+            <p class="card__body">
+              Write and ship production-grade software across the full stack — building
+              features, APIs, platforms, and cloud infrastructure that teams rely on every day.
+            </p>
+            <ul class="card__tags">
+              <li>Full-Stack Development</li>
+              <li>API & Platform Engineering</li>
+              <li>Cloud Infrastructure</li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Technical Leadership -->
+          <div class="card">
+            <div class="card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="14" r="6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <circle cx="10" cy="34" r="5" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <circle cx="38" cy="34" r="5" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                <line x1="24" y1="20" x2="24" y2="28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="24" y1="28" x2="10" y2="29" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="24" y1="28" x2="38" y2="29" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Technical Leadership</h3>
+            <p class="card__body">
+              Embedded as a fractional tech lead or staff engineer to provide the architectural
+              clarity and hands-on guidance needed to modernize codebases and scale systems effectively.
+            </p>
+            <ul class="card__tags">
+              <li>Fractional Tech Lead</li>
+              <li>Architecture Design</li>
+              <li>Scaling Systems</li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Advisory -->
+          <div class="card">
+            <div class="card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4L28.5 16H42L31.5 23.5L36 36L24 28.5L12 36L16.5 23.5L6 16H19.5L24 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="card__title">Advisory</h3>
+            <p class="card__body">
+              From technical due diligence to architecture reviews and performance audits giving
+              you an expert perspective when the stakes are highest — before you commit.
+            </p>
+            <ul class="card__tags">
+              <li>Due Diligence</li>
+              <li>Architecture Reviews</li>
+              <li>Performance Audits</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Get in Touch</p>
+          <h2 class="section-title">Let's work together</h2>
+        </div>
+
+        <div class="contact__layout">
+
+          <!-- Bio -->
+          <div class="bio">
+            <div class="bio__avatar">
+              <img src="image/mitch-jenkins-hs.jpeg">
+            </div>
+            <h3 class="bio__name">Mitch Jenkins</h3>
+            <p class="bio__title">Software Engineer &amp; Technical Consultant</p>
+            <p class="bio__location">
+              <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                <path d="M8 1.5A4.5 4.5 0 0 1 12.5 6c0 3-4.5 8.5-4.5 8.5S3.5 9 3.5 6A4.5 4.5 0 0 1 8 1.5z" stroke="currentColor" stroke-width="1.4" fill="none"/>
+                <circle cx="8" cy="6" r="1.5" stroke="currentColor" stroke-width="1.4" fill="none"/>
+              </svg>
+              Statham, Georgia
+            </p>
+            <p class="bio__body">
+              Mitch is a senior software engineer with experience building and scaling systems across fintech and enterprise platforms. He brings a pragmatic, hands-on approach — equally comfortable writing code, shaping architecture, and guiding teams through complex technical decisions.
+            </p>
+            <div class="bio__connect">
+              <a href="https://www.linkedin.com/in/mitch-jenkins-012b3321/" target="_blank" rel="noopener" class="bio__social-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact info -->
+          <div class="contact-info">
+            <p class="contact-info__lead">
+              Ready to bring clarity and execution to your next project? Reach out directly.
+            </p>
+            <ul class="contact-info__list">
+              <li class="contact-info__item">
+                <span class="contact-info__icon">
+                  <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                    <path d="M2.5 5.5A1.5 1.5 0 014 4h12a1.5 1.5 0 011.5 1.5v9A1.5 1.5 0 0116 16H4a1.5 1.5 0 01-1.5-1.5v-9z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <path d="M2.5 6l7.5 5 7.5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                  </svg>
+                </span>
+                <div>
+                  <span class="contact-info__label">Email</span>
+                  <a href="mailto:mitch@jenkinssoftwareconsulting.com" class="contact-info__value">mitch@jenkinssoftwareconsulting.com</a>
+                </div>
+              </li>
+              <li class="contact-info__item">
+                <span class="contact-info__icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </span>
+                <div>
+                  <span class="contact-info__label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/mitch-jenkins-012b3321/" target="_blank" rel="noopener" class="contact-info__value">linkedin.com/in/mitch-jenkins-012b3321</a>
+                </div>
+              </li>
+              <li class="contact-info__item">
+                <span class="contact-info__icon">
+                  <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+                    <path d="M8 1.5A4.5 4.5 0 0 1 12.5 6c0 3-4.5 8.5-4.5 8.5S3.5 9 3.5 6A4.5 4.5 0 0 1 8 1.5z" stroke="currentColor" stroke-width="1.3" fill="none"/>
+                    <circle cx="8" cy="6" r="1.5" stroke="currentColor" stroke-width="1.3" fill="none"/>
+                  </svg>
+                </span>
+                <div>
+                  <span class="contact-info__label">Based in</span>
+                  <span class="contact-info__value">Statham, Georgia · Available remotely</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="logo">
+          <span class="logo__mark"><span class="logo__mark-inner"><span class="logo__mark-j">J</span><span class="logo__mark-s">S</span><span class="logo__mark-c">C</span></span></span>
+          <span class="logo__text">Jenkins Software Consulting</span>
+        </a>
+        <p class="footer__tagline">Building software that scales.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#home" class="footer__nav-link">Home</a>
+        <a href="#about" class="footer__nav-link">About</a>
+        <a href="#contact" class="footer__nav-link">Contact</a>
+      </div>
+      <div class="footer__social">
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <!-- <a href="https://x.com" target="_blank" rel="noopener" class="social-link" aria-label="X (Twitter)"> -->
+          <!-- <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> -->
+            <!-- <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/> -->
+          <!-- </svg> -->
+        <!-- </a> -->
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Jenkins Software Consulting. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
