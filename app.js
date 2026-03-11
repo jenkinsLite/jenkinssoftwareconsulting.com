@@ -31,6 +31,34 @@ nav.querySelectorAll('.nav__link').forEach(link => {
   });
 });
 
+// Active nav link tracks current section
+const navLinks = document.querySelectorAll('.nav__link[data-section]');
+
+function setActiveLink(sectionId) {
+  navLinks.forEach(link => {
+    const isActive = link.dataset.section === sectionId;
+    link.classList.toggle('nav__link--active', isActive);
+    // Adjust padding so non-active links don't shift layout
+    link.style.padding = isActive ? '' : '';
+  });
+}
+
+const sections = ['home', 'about', 'contact'].map(id => document.getElementById(id));
+
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      setActiveLink(entry.target.id);
+    }
+  });
+}, {
+  // Fire when a section occupies more than 40% of the viewport
+  threshold: 0,
+  rootMargin: '-40% 0px -40% 0px'
+});
+
+sections.forEach(s => s && sectionObserver.observe(s));
+
 // Intersection observer — fade-in cards
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
